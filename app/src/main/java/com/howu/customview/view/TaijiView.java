@@ -66,6 +66,7 @@ public class TaijiView extends View {
         path1.op(path6, Path.Op.UNION);
 
         canvas.drawPath(path1, mPaint);
+        //绘制外圈
         mPaint.setStyle(Paint.Style.STROKE);
         canvas.drawCircle(0, 0, r, mPaint);
     }
